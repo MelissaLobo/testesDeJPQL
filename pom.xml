@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>melissaempresa</groupId>
-  <artifactId>appmelissa</artifactId>
+  <artifactId>testeJPQL</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>appmelissa Maven Webapp</name>
+  <name>testeJPQL Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <build>
@@ -40,6 +40,12 @@
 			<artifactId>hsqldb</artifactId>
 			<version>2.3.2</version>
 		</dependency>
+
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.11</version>
+	</dependency>
 		
 		<dependency>
 			<groupId>jstl</groupId>
